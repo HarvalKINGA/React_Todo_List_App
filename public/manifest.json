@@ -1,3 +1,4 @@
+// Configuration and informations for installation of the React.js app
 {
   "short_name": "React App",
   "name": "Create React App Sample",
