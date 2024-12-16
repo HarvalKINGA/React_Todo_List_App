@@ -1,18 +1,17 @@
-// App.js
+import React from 'react'; // Importer React
+import './App.css'; // Importer le fichier CSS
 
-import React from "react";
-import "./App.css";
-
-import Posts from "./components/Posts";
-import Navbar from "./components/BlogNav"
-
-const App = () => {
+function App() {
     return (
-        <div className="main-container" style={{backgroundColor: "aliceblue"}}>
-            <Navbar />
-            <Posts />
+        <div className="App">
+            <header className="App-header">
+                <h1>Bienvenue dans mon application React</h1> {/* Titre de l'application */}
+                <p>
+                    Ceci est un exemple d'application React. {/* Texte d'exemple */}
+                </p>
+            </header>
         </div>
     );
-};
+}
 
-export default App;
+export default App; // Exporter le composant App
