@@ -1,20 +1,31 @@
 <!DOCTYPE html>
+<!-- Indicates that the document is an HTML5 document. This allows the browser to render the page correctly -->
 <html lang="en">
+<!--Sets the document language to English. This helps search engines and screen readers understand the language of the content.-->
   <head>
+<!--Contains metadata and links to external resources.-->   
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!--Sets the character encoding to UTF-8, which allows special characters and symbols to be displayed correctly.-->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />    
+<!--Specifies the page icon (favicon) that appears in the browser tab. This helps with visual identification of the application.-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Enables responsive layout by setting the page width to match the device screen width. This improves the user experience on mobile devices -->
     <meta name="theme-color" content="#000000" />
+    //Sets the color of the app theme, which can influence the color of the address bar on mobile browsers.
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    //Provides a description of the page, which can be used by search engines to display snippets in search results.
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />//Sets the icon that will be displayed on Apple devices when a user adds the app to their Home screen.
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+    Lien vers le fichier manifest qui contient des métadonnées sur l'application, comme le nom, les icônes et les couleurs, permettant une meilleure intégration sur les appareils mobiles.
+    -->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,8 +38,9 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript> //Message displayed if JavaScript is disabled in the browser, indicating that the application requires JavaScript to function.
+    <div id="root"></div> 
+   // Sets the title of the page that appears in the browser tab. This helps users quickly identify the application.
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
